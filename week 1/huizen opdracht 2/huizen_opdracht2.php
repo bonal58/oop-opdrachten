@@ -48,7 +48,7 @@ class House {
     }
 }
 
-// Maak kamers aan en voeg ze toe aan huizen
+// Maak kamers en voeg ze toe aan huizen
 $room1 = new Room(5, 4, 3);
 $room2 = new Room(6, 4, 3);
 $room3 = new Room(4, 3, 3);
