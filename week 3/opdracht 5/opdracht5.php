@@ -1,4 +1,4 @@
-<?php
+<?php 
 abstract class Person {
     private $name;
     private $eyeColor;
@@ -63,7 +63,6 @@ class Doctor extends Staff {
         return "Doctor";
     }
 }
-
 
 class Nurse extends Staff {
     private $weeklySalary;
@@ -133,3 +132,42 @@ $cost = $appointment->calculateCost();
 echo "Doctor's salary: $" . $cost[0] . "\n";
 echo "Nurse's bonus: $" . $cost[1] . "\n";
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Details</title>
+</head>
+<body>
+    <h1>Appointment Details</h1>
+
+    <?php
+        // Inclusie van de PHP-bestandscode hieronder
+
+        // Klassen definities...
+    ?>
+
+    <h2>Doctor</h2>
+    <p>Name: <?php echo $doctor->getName(); ?></p>
+    <p>Role: <?php echo $doctor->determineRole(); ?></p>
+
+    <h2>Patient</h2>
+    <p>Name: <?php echo $patient->getName(); ?></p>
+    <p>Role: <?php echo $patient->determineRole(); ?></p>
+
+    <h2>Nurse</h2>
+    <p>Name: <?php echo $nurse->getName(); ?></p>
+    <p>Role: <?php echo $nurse->determineRole(); ?></p>
+
+    <h2>Appointment Cost</h2>
+    <?php
+        // Berekening van de kosten van de afspraak...
+        $cost = $appointment->calculateCost();
+    ?>
+    <p>Doctor's Salary: $<?php echo $cost[0]; ?></p>
+    <p>Nurse's Bonus: $<?php echo $cost[1]; ?></p>
+</body>
+</html>
+
