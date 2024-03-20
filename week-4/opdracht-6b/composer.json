@@ -1,0 +1,17 @@
+{
+    "name": "onal/opdracht-6b",
+    "require": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onal\\Opdracht6b\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "berkay",
+            "email": "b.onal@xeniox.nl"
+        }
+    ]
+}
