@@ -1,5 +1,5 @@
 <?php
-    // Author: Diego Ballestero
+    // Author: Berkay Onal
 
 
     // Initialisatie

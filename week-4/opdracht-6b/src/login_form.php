@@ -1,5 +1,5 @@
 <?php
-    // Author: Diego Ballestero
+    // Author: Berkay Onal
 
 	
     // Initialisatie
@@ -25,7 +25,7 @@
 
 		// Indien geen fouten dan inloggen
 		if(count($errors)== 0){
-			//Inlogen
+			//Inloggen
 			if ($user->LoginUser()){
 				echo "Login geslaagd";
 				// Ga naar pagina??
