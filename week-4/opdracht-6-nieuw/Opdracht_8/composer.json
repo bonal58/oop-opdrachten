@@ -1,0 +1,15 @@
+{
+    "name": "phpunit/phpunit",
+    "autoload": {
+        "psr-4": {
+            "Phpunit\\Phpunit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "berkay",
+            "email": "b.onal@xeniox.nl"
+        }
+    ],
+    "require": {}
+}

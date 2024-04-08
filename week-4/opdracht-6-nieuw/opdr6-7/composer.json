@@ -1,0 +1,17 @@
+{
+    "name": "onal/opdr6-7",
+    "require": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onal\\Opdr67\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "berkay",
+            "email": "b.onal@xeniox.nl"
+        }
+    ]
+}
